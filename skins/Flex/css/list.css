@@ -1,0 +1,15 @@
+.list_row, .list_col {
+    padding:6px;
+    background:#ccc;
+    color:#000;
+}
+
+.list_image {
+    padding:6px;
+    background:#ccc;
+    color:#000;
+}
+.list_hl {
+    background:#fc0;
+    color:#000;
+}

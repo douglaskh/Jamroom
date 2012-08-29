@@ -1,0 +1,12 @@
+#main_menu {
+padding:20px 12px 0px 0px;
+text-align:right;
+font-size:16px;
+float:right;
+}
+#login_button {
+text-transform:capitalize;
+}
+#signup_button {
+text-transform:capitalize;
+}

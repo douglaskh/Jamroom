@@ -1,0 +1,411 @@
+form {
+    margin-bottom:0;
+}
+
+#simplemodal-overlay {
+    background-color:#000;
+    cursor:wait;
+}
+#modal_window {
+    background:#222;
+    border:12px solid #444;
+    overflow:auto;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#modal_updates {
+    color: #fff;
+    font-size:12px;
+    font-family:'Courier New',monospace;
+    padding:8px;
+    overflow:auto;
+}
+#modal_spinner {
+    vertical-align:middle;
+    margin-right:8px;
+}
+#modal_lang_window {
+    width:500px;
+    height:150px;
+    background:#222;
+    border:12px solid #444;
+    overflow:auto;
+    text-align:center;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+#progress_box {
+    display:none;
+    width:426px;
+    background:#555;
+    padding:12px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#progress_status {
+    background:#333;
+    height:148px;
+    padding:6px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    color:#fff;
+    font-size:14px; 
+}
+#progress_bar {
+    width:0px;
+    height:24px;
+    margin:6px 0;
+}
+#progress_left {
+    color:#ccc;
+    width:50%;
+    padding:5px;
+    text-align:right;
+}
+#progress_right {
+    width:50%;
+    padding:5px;
+    text-align:left;
+}
+
+.form_default {
+    display:inline-block;
+    margin-top:12px;
+}
+
+.form_small {
+    display:inline-block;
+    font-size:9px;
+    margin-top:12px;
+    color:#999;
+    font-style:italic;
+}
+
+.form_notice_drop {
+    background:#e8eaeb;
+    padding:12px;
+    font-size:14px;
+    border-top:1px solid #DDD;
+}
+.form_notice {
+    text-align:center;
+    padding:10px;
+    display:none;
+    -moz-box-shadow:inset 0 2px 2px #aaa;
+    -webkit-box-shadow:inset 0 2px 2px #aaa;
+    box-shadow:inset 0 2px 2px #aaa;
+}
+
+.form_help_button {
+    float:right;
+}
+.form_help {
+    background:#FFF;
+    padding:0px 30px 0px 30px;
+}
+.form_help_drop {
+    padding-top:4px;
+    background:#ededed;
+    width:100%;
+    -moz-box-shadow:inset 0 3px 5px #888;
+    -webkit-box-shadow:inset 0 3px 5px #888;
+    box-shadow:inset 0 3px 5px #888;
+}
+.form_help_drop_left {
+    width:95%;
+    padding:10px 20px 20px 20px;
+    font-size:14px;
+    text-align:left;
+    text-transform:none;
+}
+.form_help_drop_right {
+    width:5%;
+    padding:10px 20px 20px 20px;
+}
+
+.form_input_left {
+    height:30px;
+}
+.form_input_right {
+}
+.sublabel {
+    font-size:10px;
+    line-height:10px;
+    font-variant:italic;
+    text-transform:none;
+}
+.form_button {
+    color:#484848;
+    text-decoration:none;
+    text-transform:capitalize;
+    text-shadow:0 1px 0 #fff;
+    font:bold 12px Verdana,sans-serif;
+    line-height:28px;
+    height:28px;
+    padding:0 9px;
+    margin:0 2px;
+    background:#f0f0f0;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d1d1d1'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#d1d1d1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7,  #d1d1d1); /* for firefox 3.6+ */
+    border:solid 1px #7f7f7f;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    cursor:pointer;
+    vertical-align:middle;
+}
+.form_button:hover {
+    border:solid 1px #333;
+    color:#282828;
+    text-shadow:0 0 0 #fff;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#CCCCCC'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#CCCCCC)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #CCCCCC); /* for firefox 3.6+ */
+}
+.form_button_disabled {
+    color:#A4A4A4;
+    border:solid 1px #afafaf;
+}
+.form_button_disabled:hover {
+    color:#A4A4A4;
+    background:#f0f0f0;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d1d1d1'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#d1d1d1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7,  #d1d1d1); /* for firefox 3.6+ */
+    border:solid 1px #afafaf;
+}
+
+.form_submit_section {
+    background:#FFF;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#CCCCCC'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#CCCCCC)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #CCCCCC); /* for firefox 3.6+ */
+	border:1px solid #999999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    padding:10px;
+    text-align:center;
+}
+#form_submit_indicator {
+    display:none;
+    margin-right:10px;
+    vertical-align:middle;
+}
+
+.form_text, .form_password, .form_date {
+    color:#000;
+    text-decoration:none;
+    font:14px Tahoma, Helvetica, Arial, sans-serif;
+    height:24px;
+    width:80%;
+    padding:0 4px;
+    margin:0 2px;
+    background:#fff;
+    border:solid 1px #7f7f7f;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    vertical-align:middle;
+}
+.form_text[disabled="disabled"], .form_text[readonly="readonly"] {
+    background:#ddd;
+    color:#888;
+}
+.form_text_search {
+    width:70%;
+}
+.form_date {
+    width:238px;
+}
+
+.form_textarea {
+    color:#000;
+    text-decoration:none;
+    font:14px Tahoma, Helvetica, Arial, sans-serif;
+    height:28px;
+    width:80%;
+    height:100px;
+    padding:5px;
+    margin:0 2px;
+    background:#fff;
+    border:solid 1px #7f7f7f;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    vertical-align:middle;
+}
+
+.form_select {
+    color:#000;
+    text-decoration:none;
+    font:14px Tahoma, Helvetica, Arial, sans-serif;
+    width:82%;
+    margin:2px;
+    padding:4px 6px;
+    background:#fff;
+    border:solid 1px #7f7f7f;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    vertical-align:middle;
+}
+.form_select_short {
+    width:204px;
+}
+.form_time {
+    margin-left:20px;
+    width:140px;
+}
+
+.form_checkbox {
+    font-size:16px;
+    margin:7px 3px 3px 3px;
+    padding:3px;
+}
+
+.form_highlight {
+    background-color:#fc0;
+}
+
+/* Calendar container div */
+.gldp-default {
+	float:left;
+	font-family:"trebuchet ms" !important;
+	background-color:#ccc !important;
+	font-size:1em !important;
+	border:solid 1px #888;
+}
+
+/* Table style */
+.gldp-default table {
+	border-spacing:1px;
+	border-collapse:inherit;
+}
+
+/* Default row height */
+.gldp-default tr {
+	line-height:28px;
+}
+
+/* Default style of cell */
+.gldp-default td {
+	margin:0;
+	padding:0;
+	width:33px;
+	text-align:center;
+}
+
+/* Previous and Next arrows */
+.gldp-default-prevnext {
+	font-family:"times new roman";
+	color:#222;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* Month Year title */
+.gldp-default-monyear {
+	color:#222;
+	font-size:1em !important;
+	font-weight:bold;
+}
+
+/* Days of the week (Sun, Mon, ...) */
+.gldp-default-dow {
+	background-color:#fc0;
+	color:#000;
+	font-size:1em !important;
+	font-weight:bold;
+}
+
+/* Selectable days */
+.gldp-default-day {
+	background-color:#fff;
+	color:#222;
+	border:solid 1px #fff;
+	font-weight:bold;
+}
+.gldp-default-day-hover {
+	background-color:#fff;
+	color:#f82200;
+	border:solid 1px #fc0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* Selected days */
+.gldp-default-selected {
+	background-color:#fee;
+	color:#222;
+	border:solid 1px #fc0;
+}
+
+/* Today */
+.gldp-default-today {
+	background-color:#fc0;
+	color:#000;
+	border:solid 1px #000;
+	font-weight:bold;
+}
+.gldp-default-today-hover {
+	background-color:#fff;
+	color:#f82200;
+	border:solid 1px #fc0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* Weekends */
+.gldp-default-sat, .gldp-default-sun {
+	background-color:#fff;
+	color:#004f8f;
+	border:solid 1px #fff;
+	font-weight:bold;
+}
+.gldp-default-sat-hover, .gldp-default-sun-hover {
+	background-color:#fff;
+	color:#004f8f;
+	border:solid 1px #fc0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* Non-selectable day.  Includes:previous/next month days and days that fall in the allowOld and endDate conditions */
+.gldp-default-noday {
+	background-color:#fff;
+	border:solid 1px #fff;
+	color:#666;
+	cursor:wait;
+}
+
+#jquery-live-search {
+	background: #fff;
+
+	padding: 5px 10px;
+	max-height: 400px;
+	overflow: auto;
+
+	position: absolute;
+	z-index: 99;
+
+	border: 1px solid #A9A9A9;
+	border-width: 0 1px 1px 1px;
+
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.center {
+    text-align:center;
+}
+
+.field-hilight {
+    background:#fc0;
+} 

@@ -1,0 +1,364 @@
+/* Classes */
+.page_content {
+}
+.element {
+}
+
+/* @title Element Left */
+/* @help This is the left side of pages and forms where the label and sub-label will appear */
+.element_left {
+    background-color:#FFFFFF;
+    text-align:right;
+    text-transform:capitalize;
+    padding:8px;
+    width:28%;
+}
+/* @title Element Right */
+/* @help This is the right side of pages and forms where the form elements appear */
+.element_right {
+    background-color:#FFFFFF;
+    padding:6px;
+    width:72%;
+}
+/* @title Element Right URLs */
+/* @help This is the color of URLs that might appear on the right side of the form */
+.element_right a {
+    color: #222222;
+}
+
+/* @title Form Notice */
+/* @help Background color of Form Notice messages */
+.notice {
+    background-color:#ffcc00;
+}
+
+/* @title Form Warning */
+/* @help Background color of Form Warning messages */
+.warning {
+    background-color:#ffcc00;
+}
+
+/* @title Form Error */
+/* @help Background color of Form Error messages */
+.error {
+    background-color:#ffcc00;
+}
+
+/* @title Form Success */
+/* @help Background color of Form Success messages */
+.success {
+    background-color:#ccff99;
+}
+
+.page_banner {
+}
+
+/* @title Page Banner Icon */
+/* @help The Page Banner Icon section is the small section at the top of pages where the module icon appears */
+.page_banner_icon {
+    background-color:#FFFFFF;
+    width:1%;
+    padding:8px;
+}
+
+/* @title Page Banner Title */
+/* @help The Title section in the page banner */
+.page_banner_left {
+    height:40px;
+    text-align:left;
+    background-color:#FFFFFF;
+    padding:6px;
+    font-size:16px;
+    text-transform:capitalize;
+    white-space:nowrap;
+}
+
+/* @title Page Banner Description */
+/* @help The Description section on the right side of the page banner */
+.page_banner_right {
+    background-color:#FFFFFF;
+    padding:6px;
+    text-align:right;
+    border-top:0;
+}
+
+.page_section_header {
+	background:#FFFFFF;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#CCCCCC'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#CCCCCC)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #CCCCCC); /* for firefox 3.6+ */
+	border:1px solid #999999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    height:25px;
+    font-size:16px;
+    text-transform:lowercase;
+    font-variant:small-caps;
+    padding:3px 3px 3px 20px;
+    text-align:left;
+}
+
+
+.page_custom {
+	background:#FFF;
+}
+
+.page_notice_drop {
+    background:#FFFFFF;
+    border-top:1px solid #ddd;
+}
+.page_notice {
+    text-align:center;
+    padding:10px;
+    margin:12px;
+    font-size:14px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -moz-box-shadow:inset 0 2px 4px #888;
+    -webkit-box-shadow:inset 0 2px 4px #888;
+    box-shadow:inset 0 2px 4px #888;
+}
+
+.page_note {
+    background-color:#ccff99;
+    font-size:16px;
+    padding:12px 30px 15px 30px;
+    text-align:center;
+    border-bottom:6px solid #ddd;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+}
+
+.page_divider {
+    background:#FFFFFF;
+    height:20px;
+}
+  
+
+
+.page_cancel {
+    height:30px;
+    text-align:center;
+    vertical-align:middle;
+}
+.page_cancel_button {
+}
+
+
+.page_raw_html {
+}
+
+
+.page_template {
+}
+
+/* Tab Bar */
+.page_tab_bar_holder {
+    width:100%;
+    background:#FFF;
+    border-bottom:2px solid #ddd;
+}
+.page_tab_bar {
+    padding-left:16px;
+}
+.page_tab {
+    background:#444;
+    float:left;
+    list-style:none;
+    margin-left:12px;
+    color:#fff;
+    text-decoration:none;
+    text-transform:capitalize;
+    font:14px Verdana,sans-serif;
+    padding:6px 16px;
+    text-align:center;
+    cursor:pointer;
+    -webkit-border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+}
+.page_tab:hover {
+    background:#fc0;
+    color:#000;
+    border-bottom:2px solid #fc0;
+    text-decoration:none;
+}
+.page_tab:hover a {
+    color:#000;
+    text-decoration:none;
+}
+.page_tab a {
+    color:#fff;
+    text-decoration:none;
+}
+.page_tab_first {
+    margin-left:0;
+}
+.page_tab_last {
+}
+.page_tab_active {
+    background:#ddd;
+    color:#000;
+    border:2px solid #ddd;
+    border-bottom:0;
+}
+.page_tab_active:hover {
+    background:#ddd;
+    color:#000;
+    border-bottom:0;
+    text-decoration:none;
+}
+.page_tab_active a {
+    color:#000;
+}
+
+/* Search Bar */
+.page_search_bar {
+}
+.page_search_bar_left {
+}
+.page_search_bar_right {
+}
+.page_search_highlight {
+    background:#f7dd4f;
+}
+
+
+.page_link_banner {
+}
+.page_link_banner_button {
+    width:220px;
+    padding:8px;
+    font-size:22px;
+    margin:3px;
+    text-transform:capitalize;
+    vertical-align:middle;
+}
+.page_link_banner_left {
+    text-align:center;
+}
+.page_link_banner_right {
+    height:32px;
+    padding-left:10px;
+}
+
+
+.page_table {
+    border-spacing:1px;
+    background:#999;
+    width:100%;
+}
+.page_table_header {
+    background:#e8eaeb;
+    text-align:center;
+    padding:6px;
+    font-size:12px;
+    color:#000;
+    white-space:nowrap;
+}
+.page_table_row {
+    background:#e8eaeb;
+}
+.page_table_row_alt {
+    background:#FFFFFF;
+}
+.page_table_cell {
+    padding:5px;
+    color:#000;
+    font-size:12px;
+    color:#000;
+}
+.page_table_pager {
+}
+.page_table_pager_left {
+    width:25%;
+    padding:5px;
+}
+.page_table_pager_center {
+    text-align:center;
+    width:50%;
+    padding:5px;
+    font-size:11px;
+}
+.page_table_pager_right {
+    text-align:right;
+    width:25%;
+    padding:5px;
+}
+.page_table_jumper {
+    width:50px;
+}
+.page_table_notice {
+    text-align:center;
+    line-height:32px;
+    font-size:14px;
+}
+.page_table_drag {
+    cursor:move;
+    border-left:32px solid #aaa;
+}
+.page_drag_row {
+    margin:10px;
+}
+
+
+
+
+
+.jr_core_mod_name {
+    font-weight:bold;
+    font-size:16px;
+    line-height:24px;
+}
+.jr_core_mod_version {
+    margin-left:15px;
+    margin-right:8px;
+    font-size:11px;
+    color:#999;
+    float:right;
+}
+.jr_core_mod_disabled {
+    background:#fc0;
+    padding:6px;
+    margin:10px 10px 0px 15px;
+    font-size:12px;
+    color:#000;
+    float:right;
+    border:1px solid #aaa;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+.jr_core_mod_deleted {
+    background:#f00;
+    padding:6px;
+    margin:10px 10px 0px 15px;
+    font-size:12px;
+    color:#000;
+    float:right;
+    border:1px solid #aaa;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+.jr_core_mod_help {
+    font-size:12px;
+}
+
+.jr_core_inf {
+    text-align:left;
+}
+.jr_core_min {
+    background:#ff9;
+    text-align:left;
+}
+.jr_core_maj {
+    background:#f93;
+    text-align:left;
+}
+.jr_core_cri {
+    background:#f63;
+    text-align:left;
+}
